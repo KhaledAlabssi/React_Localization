@@ -22,10 +22,6 @@ function App() {
     console.log(i18n.language);
     i18n.changeLanguage(e.target.id);
     console.log(i18n.language);
-
-    
-    
-    
   }
   useEffect(() => {}, [language, clickHandler])
   return (
